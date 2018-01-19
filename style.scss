@@ -1,20 +1,26 @@
 /* General rules */
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 22px; }
+  font-size: 22px;
+}
 
 #banner {
   background-color: #722872;
-  height: 72px; }
-  #banner a {
+  height: 72px;
+  a {
     color: #fff;
     font-size: 2em;
     float: left;
     font-weight: 700;
-    text-decoration: none; }
-  #banner .nav {
-    margin-top: 9px; }
-    #banner .nav a {
+    text-decoration: none;
+  }
+
+  .nav {
+    margin-top: 9px;
+    a {
       font-size: 22px;
       text-transform: uppercase;
-      font-weight: 300; }
+      font-weight: 300;
+    }
+  }
+}
