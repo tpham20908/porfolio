@@ -2,16 +2,22 @@ body{
   font-family: Lobster;
   color: white;
 }
-.nav-pills {
-  font-size: 1.7em;
-  background-color: black;
-  margin-bottom: 10%;
-}
 
 h1 {
   padding: 0;
   margin-top: 0;
   font-size: 5em;
+}
+
+p {
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+.nav-pills {
+  font-size: 1.7em;
+  background-color: black;
+  margin-bottom: 10%;
 }
 
 .btn-default {
@@ -35,7 +41,7 @@ h1 {
 }
 
 .page2 {
-  background: url("https://images.unsplash.com/photo-1414497370617-1d23dd92ab2d?auto=format&fit=crop&w=667&q=80");
+  background: url("https://images.unsplash.com/photo-1502219778817-93d41333bd19?auto=format&fit=crop&w=750&q=80");
   background-size: cover;
   height: 800px;
 }
