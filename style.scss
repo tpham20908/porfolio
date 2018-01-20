@@ -7,3 +7,19 @@ body {
   -o-background: cover;
   background: cover;
 }
+
+.spacer {
+  padding: 5%;
+}
+
+/* main */
+.block {
+  background-color: #000;
+  color: #fff;
+  width: 75%;
+  margin: auto;
+  border-radius: 15px;
+  font-size: 1.5em;
+  padding: 3%;
+  opacity: .75;
+}
