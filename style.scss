@@ -12,8 +12,9 @@ body {
   padding: 5%;
 }
 
+
 /* main */
-.block {
+.block1, .block2 {
   background-color: #000;
   color: #fff;
   width: 75%;
@@ -29,6 +30,13 @@ body {
 }
 
 .block2 {
+  img {
+  width: 100%;
+  border-radius: 5%;
+  }
+}
+
+.block3 {
   background-color: #000;
   color: #fff;
   width: 50%;
