@@ -7,6 +7,10 @@ body {
   -o-background: cover;
   background: cover; }
 
+/* navbar */
+.navbar, .navbar-brand {
+  font-size: 1.5em; }
+
 .spacer {
   padding: 5%; }
 
@@ -25,6 +29,8 @@ body {
     border-radius: 50%;
     margin-bottom: .5em; }
 
+.block2 .card {
+  margin-bottom: 15%; }
 .block2 img, .block2 iframe {
   width: 100%;
   border-radius: 5%; }
