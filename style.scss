@@ -20,7 +20,8 @@ body {
   width: 75%;
   margin: auto;
   border-radius: 15px;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  letter-spacing: 1.2px;
   padding: 3%;
   opacity: .75;
   img {
@@ -30,7 +31,7 @@ body {
 }
 
 .block2 {
-  img {
+  img, iframe {
   width: 100%;
   border-radius: 5%;
   }
@@ -42,7 +43,8 @@ body {
   width: 50%;
   margin: auto;
   border-radius: 15px;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  letter-spacing: 1.2px;
   padding: 3%;
   opacity: .75;
 }
