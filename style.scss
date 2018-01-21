@@ -1,14 +1,11 @@
 /* General rules */
 body {
   font-family: Lobster;
-  -webkit-background: no-repeat center center fixed;
-  -moz-background: no-repeat center center fixed;
-  -o-background: no-repeat center center fixed;
   background: no-repeat center center fixed;
-  -webkit-background: cover;
-  -moz-background: cover;
-  -o-background: cover;
-  background: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* navbar */
