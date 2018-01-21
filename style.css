@@ -72,8 +72,7 @@ body {
 footer {
   background-color: #000;
   color: #ccc;
-  text-align: center;
-  padding-bottom: 2%; }
+  text-align: center; }
   footer h3 {
     text-transform: uppercase;
     letter-spacing: 1.2px; }
