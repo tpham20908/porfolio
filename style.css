@@ -101,3 +101,9 @@ footer {
     footer .footer-right ul li:hover {
       border: solid 2px #fff;
       background: #fff; }
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    margin-top: 52px; }
+    #navbar li {
+      float: left; } }
