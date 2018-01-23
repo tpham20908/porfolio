@@ -8,7 +8,6 @@ $(function() {
   var menuVisible = false;
   $("#button").click(function() {
     if (menuVisible) {
-      $("#navbar").addClass("pull-right");
       $("#navbar").css({"display" : "none"});
       menuVisible = false;
       return;
