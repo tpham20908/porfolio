@@ -9,14 +9,17 @@ body {
 
 /* navbar */
 .navbar-brand {
-  font-size: 2em; }
+  font-size: 1.5em; }
 
 .navbar {
-  font-size: 2em;
+  font-size: 1.8em;
   height: 2.5em; }
 
 .container {
   padding-top: 6px; }
+
+#navbar {
+  padding-top: 3px; }
 
 .spacer {
   padding: 5%; }
