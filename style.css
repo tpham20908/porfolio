@@ -83,7 +83,8 @@ body {
 footer {
   background-color: #000;
   color: #ccc;
-  text-align: center; }
+  text-align: center;
+  opacity: .9; }
   footer h3 {
     text-transform: uppercase;
     letter-spacing: 1.2px; }
