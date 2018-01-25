@@ -8,8 +8,15 @@ body {
   background-size: cover; }
 
 /* navbar */
-.navbar, .navbar-brand {
+.navbar-brand {
   font-size: 2em; }
+
+.navbar {
+  font-size: 2em;
+  height: 2.5em; }
+
+.container {
+  padding-top: 6px; }
 
 .spacer {
   padding: 5%; }
