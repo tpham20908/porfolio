@@ -9,7 +9,7 @@ body {
 
 /* navbar */
 .navbar, .navbar-brand {
-  font-size: 1.5em; }
+  font-size: 2em; }
 
 .spacer {
   padding: 5%; }
@@ -24,7 +24,7 @@ body {
   font-size: 1.4em;
   letter-spacing: 1.2px;
   padding: 3%;
-  opacity: .9; }
+  opacity: .85; }
   .block1 img, .block2 img, .contact img {
     border-radius: 50%;
     margin-bottom: .5em; }
