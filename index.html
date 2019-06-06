@@ -1,237 +1,356 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>TP</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-  crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" type="text/javascript"></script>
-</head>
-<body>
-  <!-- navbar -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="container" style="width: 75%;">
-        <div class="navbar-header pull-left">
-          <a class="navbar-brand" href="#top">Tung Pham</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="container" style="width: 75%;">
+          <div class="navbar-header pull-left">
+            <a class="navbar-brand" href="#top">Tung Pham</a>
+          </div>
+          <button
+            id="button"
+            class="navbar-toggle collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+          >
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul
+            id="navbar"
+            class="nav navbar-nav navbar-right collapse navbar-collapse"
+          >
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-        <button id="button" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-          <span class="sr-only"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <ul id="navbar" class="nav navbar-nav navbar-right collapse navbar-collapse">
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
       </div>
+    </nav>
 
+    <!-- page1 -->
+    <a name="top"></a>
+    <div class="spacer"></div>
+    <a name="about"></a>
+    <div class="block1">
+      <div class="row" style="padding: 2%;">
+        <div class="col-md-4 text-center pull-right">
+          <img
+            src="https://avatars2.githubusercontent.com/u/19245825?s=460&v=4"
+            alt="tung pham"
+            style="width: 220px; height: 220px;"
+          />
+        </div>
+        <div class="col-md-8 text-right pull-left">
+          <p>
+            Junior full-stack Developer with practical experience in project
+            management, branding strategy, and creative direction; devoted to
+            functional programming and information architecture.<br /><br />
+            JavaScript, NodeJS, React and Redux, Express<br />
+            Docker, GraphQL, MongoDB, Jest with Enzyme<br />
+            JSON, AJAX, REST, Git, Jira<br />
+          </p>
+          <hr />
+          <h3>Junior full-stack Developer</h3>
+        </div>
+      </div>
     </div>
-  </nav>
 
-<!-- page1 -->
-  <a name="top"></a>
-  <div class="spacer"></div>
-  <a name="about"></a>
-  <div class="block1">
-    <div class="row" style="padding: 2%;">
-      <div class="col-md-4 text-center pull-right">
-        <img src="https://avatars2.githubusercontent.com/u/19245825?s=460&v=4" alt="tung pham" style="width: 220px; height: 220px;">
-      </div>
-      <div class="col-md-8 text-right pull-left">
-        <p>
-          Junior full-stack Developer with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.<br><br>
-          JavaScript, NodeJS, React and Redux, Express<br>
-          Docker, GraphQL, MongoDB, Jest with Enzyme<br>
-          JSON, AJAX, REST, Git, Jira<br>
-        </p>
-        <hr>
-        <h3>Junior full-stack Developer</h3>
-      </div>
-    </div>
-  </div>
-
-<!-- page2 -->
-  <a name="portfolio"></a>
-  <div class="spacer"></div>
-  <div class="block2">
-    <h1 class="text-center"><span>Portfolio</span></h1>
-    <hr>
-    <div class="row" style="padding: 2%;">
-
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <a href="https://react-phone-store-paypal.netlify.com" target="_blank">
-            <img class="card-img-top" src="images/phone1.png" alt="phone store">
-          </a>
-          <div class="card-body">
-            <p class="card-title">Phone Store with Paypal</p>
-            <p class="card-text">ReactJS</p>
-            <!-- <a href="https://react-phone-store-paypal.netlify.com" class="btn btn-primary" target="_blank"></a> -->
+    <!-- page2 -->
+    <a name="portfolio"></a>
+    <div class="spacer"></div>
+    <div class="block2">
+      <h1 class="text-center"><span>Portfolio</span></h1>
+      <hr />
+      <div class="row" style="padding: 2%;">
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a
+              href="https://react-phone-store-paypal.netlify.com"
+              target="_blank"
+            >
+              <img
+                class="card-img-top"
+                src="images/phone1.png"
+                alt="phone store"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">Phone Store with Paypal</p>
+              <p class="card-text">ReactJS</p>
+              <!-- <a href="https://react-phone-store-paypal.netlify.com" class="btn btn-primary" target="_blank"></a> -->
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <a href="http://tung.ipd12.ca/weather/" target="_blank">
-            <img class="card-img-top" src="images/weather.PNG" alt="weather finder app">
-          </a>
-          <div class="card-body">
-            <p class="card-title">Weather Finder</p>
-            <p class="card-text">ReactJS</p>
-            <!-- <a href="http://tung.ipd12.ca/weather/" class="btn btn-primary" target="_blank"></a> -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a href="https://tp-youtubeapi.netlify.com">
+              <img
+                class="card-img-top"
+                src="https://www.youtube.com/yts/img/yt_1200-vfl4C3T0K.png"
+                alt="Youtube"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">Videos - YoutubeAPI</p>
+              <p class="card-text">ReactJS</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <a href="http://tung.ipd12.ca/books" target="_blank">
-            <img class="card-img-top" src="images/bookssearch.PNG" alt="books search with googleapis">
-          </a>
-          <div class="card-body">
-            <p class="card-title">Book Search - GoogleAPI</p>
-            <p class="card-text">ReactJS</p>
-            <!-- <a href="http://tung.ipd12.ca/books" class="btn btn-primary" target="_blank"></a> -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a href="http://tung.ipd12.ca/weather/" target="_blank">
+              <img
+                class="card-img-top"
+                src="images/weather.PNG"
+                alt="weather finder app"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">Weather Finder</p>
+              <p class="card-text">ReactJS</p>
+              <!-- <a href="http://tung.ipd12.ca/weather/" class="btn btn-primary" target="_blank"></a> -->
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <a href="http://asplightlib.gear.host" target="_blank">
-            <img class="card-img-top" src="images/lightlib.PNG" alt="Light Library">
-          </a>
-          <div class="card-body">
-            <p class="card-title">Library Management System</p>
-            <p class="card-text">ASP.NET MVC with EF6</p>
-            <!-- <a href="http://asplightlib.gear.host" class="btn btn-primary" target="_blank"></a> -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a href="http://tung.ipd12.ca/books" target="_blank">
+              <img
+                class="card-img-top"
+                src="images/bookssearch.PNG"
+                alt="books search with googleapis"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">Book Search - GoogleAPI</p>
+              <p class="card-text">ReactJS</p>
+              <!-- <a href="http://tung.ipd12.ca/books" class="btn btn-primary" target="_blank"></a> -->
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <a href="http://phone.gear.host" target="_blank">
-            <img class="card-img-top" src="images/phono.PNG" alt="phono project">
-          </a>
-          <div class="card-body">
-            <p class="card-title">Phone Store</p>
-            <p class="card-text">ASP.NET MVC with EF6</p>
-            <!-- <a href="http://phone.gear.host" class="btn btn-primary" target="_blank"></a> -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a href="http://asplightlib.gear.host" target="_blank">
+              <img
+                class="card-img-top"
+                src="images/lightlib.PNG"
+                alt="Light Library"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">Library Management System</p>
+              <p class="card-text">ASP.NET MVC with EF6</p>
+              <!-- <a href="http://asplightlib.gear.host" class="btn btn-primary" target="_blank"></a> -->
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <a href="https://github.com/tpham20908/OOP_ATMMachine/tree/master/src/atmmachinejava" target="_blank">
-            <img class="card-img-top" src="images/ATMMachine-JavaOOP.PNG" alt="ATM Machine with Java Object Oriented Program">
-          </a>
-          <div class="card-body">
-            <p class="card-title">ATM Machine</p>
-            <p class="card-text">OOP Java</p>
-            <!-- <a href="https://github.com/tpham20908/OOP_ATMMachine/tree/master/src/atmmachinejava" class="btn btn-primary" target="_blank"></a> -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a href="http://phone.gear.host" target="_blank">
+              <img
+                class="card-img-top"
+                src="images/phono.PNG"
+                alt="phono project"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">Phone Store</p>
+              <p class="card-text">ASP.NET MVC with EF6</p>
+              <!-- <a href="http://phone.gear.host" class="btn btn-primary" target="_blank"></a> -->
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <a href="https://github.com/tpham20908/WeatherMapRoute/tree/master/WMRApp" target="_blank">
-            <img class="card-img-top" src="images/WPF.PNG" alt="ATM Machine with Java Object Oriented Program">
-          </a>
-          <div class="card-body">
-            <p class="card-title">Carpool-like</p>
-            <p class="card-text">WPF C#.NET</p>
-            <!-- <a href="https://github.com/tpham20908/WeatherMapRoute/tree/master/WMRApp" class="btn btn-primary" target="_blank"></a> -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a
+              href="https://github.com/tpham20908/OOP_ATMMachine/tree/master/src/atmmachinejava"
+              target="_blank"
+            >
+              <img
+                class="card-img-top"
+                src="images/ATMMachine-JavaOOP.PNG"
+                alt="ATM Machine with Java Object Oriented Program"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">ATM Machine</p>
+              <p class="card-text">OOP Java</p>
+              <!-- <a href="https://github.com/tpham20908/OOP_ATMMachine/tree/master/src/atmmachinejava" class="btn btn-primary" target="_blank"></a> -->
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <a href="https://tpham20908.github.io/NetflixLandingPage" target="_blank">
-            <img class="card-img-top" src="https://i.ibb.co/r5krrdz/logo.png" alt="Netflix logo">
-          </a>
-          <div class="card-body">
-            <p class="card-title">Netflix Clone</p>
-            <p class="card-text">HTML, CSS, JS</p>
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a
+              href="https://github.com/tpham20908/WeatherMapRoute/tree/master/WMRApp"
+              target="_blank"
+            >
+              <img
+                class="card-img-top"
+                src="images/WPF.PNG"
+                alt="ATM Machine with Java Object Oriented Program"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">Carpool-like</p>
+              <p class="card-text">WPF C#.NET</p>
+              <!-- <a href="https://github.com/tpham20908/WeatherMapRoute/tree/master/WMRApp" class="btn btn-primary" target="_blank"></a> -->
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <a href="https://tpham20908.github.io/WashingtonPost" target="_blank">
-            <img class="card-img-top" src="https://img.washingtonpost.com/rf/image_1248x832/2010-2019/WashingtonPost/2017/10/13/Interactivity/Images/crop_90iStock-511053468.jpg?t=20170517a" alt="in a basement">
-          </a>
-          <div class="card-body">
-            <p class="card-title">Washington Post</p>
-            <p class="card-text">Raw HTML, CSS</p>
-            <!-- <a href="https://tpham20908.github.io/WashingtonPost" class="btn btn-primary" target="_blank"></a> -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a
+              href="https://tpham20908.github.io/NetflixLandingPage"
+              target="_blank"
+            >
+              <img
+                class="card-img-top"
+                src="https://i.ibb.co/r5krrdz/logo.png"
+                alt="Netflix logo"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">Netflix Clone</p>
+              <p class="card-text">HTML, CSS, JS</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <a href="https://tpham20908.github.io/ColorGame/" target="_blank">
-            <img class="card-img-top" src="images/colorgame.PNG" alt="3x3 color game">
-          </a>
-          <div class="card-body">
-            <p class="card-title">Color Game</p>
-            <p class="card-text">Javascript</p>
-            <!-- <a href="https://tpham20908.github.io/ColorGame/" class="btn btn-primary" target="_blank"></a> -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a
+              href="https://tpham20908.github.io/WashingtonPost"
+              target="_blank"
+            >
+              <img
+                class="card-img-top"
+                src="https://img.washingtonpost.com/rf/image_1248x832/2010-2019/WashingtonPost/2017/10/13/Interactivity/Images/crop_90iStock-511053468.jpg?t=20170517a"
+                alt="in a basement"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">Washington Post</p>
+              <p class="card-text">Raw HTML, CSS</p>
+              <!-- <a href="https://tpham20908.github.io/WashingtonPost" class="btn btn-primary" target="_blank"></a> -->
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <iframe src="https://prod-cert-bucket.s3.amazonaws.com/downloads/811d86943778422981d1fadc313b7650/Statement.pdf"></iframe>
-          <div class="card-body">
-            <p class="card-title">SQL</p>
-            <!-- <p class="card-text">Stanford cert.</p> -->
-            <a href="https://prod-cert-bucket.s3.amazonaws.com/downloads/811d86943778422981d1fadc313b7650/Statement.pdf" target="_blank" class="btn btn-primary">Stanford cert.</a>
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <a href="https://tpham20908.github.io/ColorGame/" target="_blank">
+              <img
+                class="card-img-top"
+                src="images/colorgame.PNG"
+                alt="3x3 color game"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-title">Color Game</p>
+              <p class="card-text">Javascript</p>
+              <!-- <a href="https://tpham20908.github.io/ColorGame/" class="btn btn-primary" target="_blank"></a> -->
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <iframe src="https://prod-cert-bucket.s3.amazonaws.com/downloads/6dd318950fab4ca09c7ca38380b3eb26/Statement.pdf"></iframe>
-          <div class="card-body">
-            <p class="card-title">Relational Algebra</p>
-            <!-- <p class="card-text">Stanford cert.</p> -->
-            <a href="https://prod-cert-bucket.s3.amazonaws.com/downloads/6dd318950fab4ca09c7ca38380b3eb26/Statement.pdf" target="_blank" class="btn btn-primary">Stanford cert.</a>
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <iframe
+              src="https://prod-cert-bucket.s3.amazonaws.com/downloads/811d86943778422981d1fadc313b7650/Statement.pdf"
+            ></iframe>
+            <div class="card-body">
+              <p class="card-title">SQL</p>
+              <!-- <p class="card-text">Stanford cert.</p> -->
+              <a
+                href="https://prod-cert-bucket.s3.amazonaws.com/downloads/811d86943778422981d1fadc313b7650/Statement.pdf"
+                target="_blank"
+                class="btn btn-primary"
+                >Stanford cert.</a
+              >
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <div class="card">
-          <iframe src="https://prod-cert-bucket.s3.amazonaws.com/downloads/cdd2fa80a7804ad5a14903adada82358/Statement.pdf"></iframe>
-          <div class="card-body">
-            <p class="card-title">XSLT</p>
-            <!-- <p class="card-text">Stanford cert.</p> -->
-            <a href="https://prod-cert-bucket.s3.amazonaws.com/downloads/cdd2fa80a7804ad5a14903adada82358/Statement.pdf" target="_blank" class="btn btn-primary">Stanford cert.</a>
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <iframe
+              src="https://prod-cert-bucket.s3.amazonaws.com/downloads/6dd318950fab4ca09c7ca38380b3eb26/Statement.pdf"
+            ></iframe>
+            <div class="card-body">
+              <p class="card-title">Relational Algebra</p>
+              <!-- <p class="card-text">Stanford cert.</p> -->
+              <a
+                href="https://prod-cert-bucket.s3.amazonaws.com/downloads/6dd318950fab4ca09c7ca38380b3eb26/Statement.pdf"
+                target="_blank"
+                class="btn btn-primary"
+                >Stanford cert.</a
+              >
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <iframe
+              src="https://prod-cert-bucket.s3.amazonaws.com/downloads/cdd2fa80a7804ad5a14903adada82358/Statement.pdf"
+            ></iframe>
+            <div class="card-body">
+              <p class="card-title">XSLT</p>
+              <!-- <p class="card-text">Stanford cert.</p> -->
+              <a
+                href="https://prod-cert-bucket.s3.amazonaws.com/downloads/cdd2fa80a7804ad5a14903adada82358/Statement.pdf"
+                target="_blank"
+                class="btn btn-primary"
+                >Stanford cert.</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-md-4 col-sm-6">
         <div class="card">
           <a href="https://tpham20908.github.io/linguloHtml5" target="_blank">
             <img class="card-img-top" src="https://tpham20908.github.io/linguloHtml5/images/slide3.jpg" alt="mountain">
@@ -243,31 +362,48 @@
           </div>
         </div>
       </div> -->
-
-    </div>
-  </div>
-
-<!-- page3 -->
-  <div class="spacer"></div>
-  <a name="contact"></a>
-  <div class="block3">
-    <h1 class="text-center"><span>Contact</span><hr></h1>
-    <div class="row text-center">
-      <div class="col-xs-4">
-        <a href="https://github.com/tpham20908" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github" area-hidden="true"></i> Github</a>
-      </div>
-      <div class="col-xs-4">
-        <a href="https://twitter.com/?lang=en" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter" area-hidden="true"></i> Twitter</a>
-      </div>
-      <div class="col-xs-4">
-        <a href="https://www.linkedin.com/in/thanh-tung-pham-786076135/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin" area-hidden="true"></i> LinkedIn</a>
       </div>
     </div>
-  </div>
-  <div class="spacer"></div>
 
-<!-- contact (can be replaced by page3) -->
-<!--
+    <!-- page3 -->
+    <div class="spacer"></div>
+    <a name="contact"></a>
+    <div class="block3">
+      <h1 class="text-center">
+        <span>Contact</span>
+        <hr />
+      </h1>
+      <div class="row text-center">
+        <div class="col-xs-4">
+          <a
+            href="https://github.com/tpham20908"
+            class="btn btn-default btn-lg"
+            target="_blank"
+            ><i class="fa fa-github" area-hidden="true"></i> Github</a
+          >
+        </div>
+        <div class="col-xs-4">
+          <a
+            href="https://twitter.com/?lang=en"
+            class="btn btn-default btn-lg"
+            target="_blank"
+            ><i class="fa fa-twitter" area-hidden="true"></i> Twitter</a
+          >
+        </div>
+        <div class="col-xs-4">
+          <a
+            href="https://www.linkedin.com/in/thanh-tung-pham-786076135/"
+            class="btn btn-default btn-lg"
+            target="_blank"
+            ><i class="fa fa-linkedin" area-hidden="true"></i> LinkedIn</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="spacer"></div>
+
+    <!-- contact (can be replaced by page3) -->
+    <!--
   <a name="contact"></a>
   <div class="spacer"></div>
   <div class="contact">
@@ -309,33 +445,49 @@
   </div>
   <div class="spacer"></div>
   -->
-  <!-- footer -->
-  <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 footer-left">
-          <h3>About this page</h3>
-          <p>
-            Made with <i class="fa fa-fw fa-coffee"></i> and <i class="fa fa-fw fa-music"></i> <br>
-            by <a href="#">Tung Pham</a>
-          </p>
-        </div>
-        <div class="col-md-6 footer-right">
-          <h3>Around the Web</h3>
-          <ul>
-            <li>
-              <a href="https://github.com/tpham20908" class="button social" target="_blank"><i class="fa fa-fw fa-github" area-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/?lang=en" class="button social" target="_blank"><i class="fa fa-fw fa-twitter" area-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/thanh-tung-pham-786076135/" class="button social" target="_blank"><i class="fa fa-fw fa-linkedin" area-hidden="true"></i></a>
-            </li>
-          </ul>
+    <!-- footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 footer-left">
+            <h3>About this page</h3>
+            <p>
+              Made with <i class="fa fa-fw fa-coffee"></i> and
+              <i class="fa fa-fw fa-music"></i> <br />
+              by <a href="#">Tung Pham</a>
+            </p>
+          </div>
+          <div class="col-md-6 footer-right">
+            <h3>Around the Web</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/tpham20908"
+                  class="button social"
+                  target="_blank"
+                  ><i class="fa fa-fw fa-github" area-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/?lang=en"
+                  class="button social"
+                  target="_blank"
+                  ><i class="fa fa-fw fa-twitter" area-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/thanh-tung-pham-786076135/"
+                  class="button social"
+                  target="_blank"
+                  ><i class="fa fa-fw fa-linkedin" area-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
